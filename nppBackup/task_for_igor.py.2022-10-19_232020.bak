@@ -1,0 +1,10 @@
+import requests
+
+data_for_post_request = {
+    "first_parameter": "first_value",
+    "second_parameter": "second_value"
+}
+
+url_for_request = "https://webhook.site/26b9008d-07df-4411-b92f-d1e1ece3eedb"
+
+requests.post(url=url_for_request, data=data_for_post_request)
